@@ -10,3 +10,4 @@ CREATE TABLES (
 
 INSERT INTO (title, author, volume_number, purchase_date)
 VALUES ('Death Note', '1', 2021-11-11),
+       ();

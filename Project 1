@@ -1,1 +1,12 @@
-SELECT 
+CREAT DATABASE mymanga_database;
+
+CREATE TABLES (
+  id bigserial,
+  title VARCHAR(50),
+	author(25),
+	volume_number integer,
+	purchase_date DATE, 
+	);
+
+INSERT INTO (title, author, volume_number, purchase_date)
+VALUES ('Death Note', '1', 2021-11-11),
